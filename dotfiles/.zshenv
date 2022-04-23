@@ -14,7 +14,7 @@ alias ..='cd ..'
 alias ....='cd ../..' 
 
 alias update='sudo xbps-install -Su && sudo xbps-remove -Oo'
-alias install='sudo xbps-install'
+alias install='sudo xbps-install -S'
 alias remove='sudo xbps-remove -R'
 
 alias cpv='rsync -ah --info=progress2'
